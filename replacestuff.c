@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+/* replace tab by \t, backspace by \b and backslash by \\*/
 main() {
 	int c; 
 	while((c = getchar()) != EOF) {
